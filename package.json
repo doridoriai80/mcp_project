@@ -1,0 +1,24 @@
+{
+  "name": "mcp-examples",
+  "version": "1.0.0",
+  "description": "MCP (Model Context Protocol) Examples with OpenAI API",
+  "type": "module",
+  "scripts": {
+    "beginner-1": "node examples/beginner/01-text-generation.js",
+    "beginner-2": "node examples/beginner/02-chatbot.js",
+    "intermediate-1": "node examples/intermediate/01-function-calling.js",
+    "intermediate-2": "node examples/intermediate/02-streaming.js",
+    "advanced-1": "node examples/advanced/01-rag-system.js",
+    "advanced-2": "node examples/advanced/02-multimodal.js"
+  },
+  "dependencies": {
+    "openai": "^4.24.0",
+    "dotenv": "^16.3.1",
+    "readline": "^1.3.0",
+    "pdf-parse": "^1.1.1",
+    "axios": "^1.6.5"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.6"
+  }
+}

@@ -1,0 +1,40 @@
+# Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Generated files
+*.log
+dist/
+build/
+out/
+
+# Temporary files
+*.tmp
+temp/
+tmp/
+
+# Generated images (from multimodal example)
+examples/advanced/*.png
+examples/advanced/*.jpg
+examples/advanced/*.svg
+
+# OS files
+Thumbs.db
+Desktop.ini
